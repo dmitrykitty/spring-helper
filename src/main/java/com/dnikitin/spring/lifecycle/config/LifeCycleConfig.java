@@ -1,6 +1,7 @@
 package com.dnikitin.spring.lifecycle.config;
 
 import com.dnikitin.spring.lifecycle.bean.Coffee;
+import com.dnikitin.spring.lifecycle.bean.CoffeeShop;
 import com.dnikitin.spring.lifecycle.bean.IngredientFactoryBean;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
@@ -27,4 +28,5 @@ public class LifeCycleConfig {
     public IngredientFactoryBean milk(){
         return new IngredientFactoryBean("milk");
     }
+
 }

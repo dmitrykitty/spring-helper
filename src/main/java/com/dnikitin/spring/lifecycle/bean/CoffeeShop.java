@@ -27,6 +27,14 @@ public class CoffeeShop implements InitializingBean, DisposableBean {
         System.out.println("open Shop from PostConstruct");
     }
 
+    @Override
+    public void afterPropertiesSet() {
+        System.out.println("open Shop from InitializingBean");
+    }
+
+    //Bean(initMethod = ...)
+
+
     public void makeCoffee(String type) {
         System.out.println("making Coffee " + type);
         coffeeProvider.getObject(type);
@@ -48,10 +56,5 @@ public class CoffeeShop implements InitializingBean, DisposableBean {
     public void destroy() {
         System.out.println("close Shop from Destroy");
 
-    }
-
-    @Override
-    public void afterPropertiesSet() {
-        System.out.println("open Shop from InitializingBean");
     }
 }
