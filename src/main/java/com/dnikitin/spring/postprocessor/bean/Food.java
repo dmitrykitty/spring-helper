@@ -1,7 +1,6 @@
 package com.dnikitin.spring.postprocessor.bean;
 
-import com.dnikitin.spring.annotation.Discount;
-import org.springframework.stereotype.Component;
+import com.dnikitin.spring.postprocessor.annotation.Discount;
 
 public class Food {
     private String type;

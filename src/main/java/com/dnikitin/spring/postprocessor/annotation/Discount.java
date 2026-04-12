@@ -1,4 +1,4 @@
-package com.dnikitin.spring.annotation;
+package com.dnikitin.spring.postprocessor.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,6 +1,6 @@
 package com.dnikitin.spring.postprocessor.processor;
 
-import com.dnikitin.spring.annotation.Discount;
+import com.dnikitin.spring.postprocessor.annotation.Discount;
 import com.dnikitin.spring.postprocessor.bean.Food;
 import org.jspecify.annotations.Nullable;
 import org.springframework.beans.BeansException;
