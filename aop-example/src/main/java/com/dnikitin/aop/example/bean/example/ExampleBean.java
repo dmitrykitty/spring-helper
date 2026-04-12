@@ -1,0 +1,19 @@
+package com.dnikitin.aop.example.bean;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ExampleBean implements IExampleBean {
+    private static final Logger LOG = LoggerFactory.getLogger(ExampleBean.class);
+
+    @Override
+    public void info() {
+        try{
+            LOG.info("info");
+        }finally {
+            LOG.info("info finally");
+        }
+    }
+}
