@@ -5,11 +5,11 @@ import org.springframework.context.event.ContextStartedEvent;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CommonStartedListener implements ApplicationListener<ContextStartedEvent> {
+public class ContextStartedListener implements ApplicationListener<ContextStartedEvent> {
 
 
     @Override
     public void onApplicationEvent(ContextStartedEvent event) {
-        System.out.println("Application started. Source + " + event.getSource());
+        System.out.println("Application started. Source " + event.getSource());
     }
 }
