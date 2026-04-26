@@ -1,0 +1,15 @@
+app:
+  restaurant:
+    name: New Bar
+    menu:
+      - Salad
+      - Pasta
+      - Beer
+      - Coffee
+    employees:
+      paul:
+        position: Chef
+        salary: 350
+      amanda:
+        position: waiter
+        salary: 120
