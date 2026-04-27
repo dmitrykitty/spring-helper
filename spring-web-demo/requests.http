@@ -1,0 +1,26 @@
+###
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+  "name": "dima",
+  "age": 32
+}
+
+###
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+"name": "kris",
+"age": 25
+}
+
+###
+GET http://localhost:8080/api/v1/users/186bddb6-2cbc-4064-8baf-5067f78b3b63
+
+###
+DELETE http://localhost:8080/api/v1/users/186bddb6-2cbc-4064-8baf-5067f78b3b63
+
+###
+GET http://localhost:8080/api/v1/users
